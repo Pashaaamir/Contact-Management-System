@@ -16,6 +16,8 @@ public class Contact extends BaseEntity {
     @Column(name = "first_Name",nullable = false)
     private String firstName;
 
+    private String newName;
+
     @Column(name = "last_Name")
     private String lastName;
 
